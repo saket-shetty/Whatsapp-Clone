@@ -11,7 +11,7 @@ class LandingPagecreen extends StatefulWidget {
 }
 
 class _LandingPagecreenState extends State<LandingPagecreen> {
-  Widget appBarTitle = Text("Whatsapp");
+  Widget appBarTitle = Text("WhatsApp");
   Icon iconsSearch = Icon(Icons.search);
 
   List<String> settingsList = [
@@ -55,7 +55,7 @@ class _LandingPagecreenState extends State<LandingPagecreen> {
                   } else {
                     setState(() {
                       iconsSearch = Icon(Icons.search);
-                      appBarTitle = Text("Whatsapp");
+                      appBarTitle = Text("WhatsApp");
                     });
                   }
                 },
